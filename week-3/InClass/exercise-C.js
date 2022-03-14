@@ -1,6 +1,7 @@
 
 function yourFunc(names) {
-    const upperNames = names.map()
+    const upperNames = names.map(name=>name.toUpperCase())
+    return upperNames
     
 }
 
@@ -21,3 +22,4 @@ function magician(yourFunc) {
   
     return magicOutput;
   }
+  console.log(magician(yourFunc))
